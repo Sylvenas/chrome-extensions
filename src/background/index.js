@@ -1,5 +1,5 @@
 const SPECIAL_STR_IN_TAB_TITLE = 'onUpdated'
-const SPECIAL_H1 = '#bass-container'
+const SPECIAL_H1 = '#some_special_h1'
 
 chrome.tabs.query({}, function (tabs) {
     tabs.forEach(tab => {
