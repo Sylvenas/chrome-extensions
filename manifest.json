@@ -1,0 +1,23 @@
+{
+    "short_name": "Insight Targets",
+    "name": "Insight Targets",
+    "icons": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval' 'sha256-DWLyMT952zYt1VKRJfAG7UECIXGWANdL0zTpe4FPi6g='; object-src 'self'",
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "notifications",
+        "webRequest",
+        "webRequestBlocking",
+        "storage",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "devtools_page": "dev-tool.html"
+}
