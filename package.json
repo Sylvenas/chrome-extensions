@@ -18,7 +18,7 @@
     "dependencies": {
         "@babel/plugin-transform-runtime": "^7.10.1",
         "@babel/runtime": "^7.10.2",
-        "ajv": "^6.12.2",
+        "ajv": "^6.12.3",
         "data.either": "^1.5.2",
         "data.task": "^3.1.2",
         "fp-ts": "^2.6.6",
